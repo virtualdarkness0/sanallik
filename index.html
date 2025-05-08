@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Sorgu Paneli</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sorgu Paneli</h1>
+
+    <div class="section">
+      <h2>IP Sorgulama</h2>
+      <input type="text" id="ipInput" placeholder="IP adresi girin">
+      <button onclick="ipSorgula()">Sorgula</button>
+      <pre id="ipSonuc"></pre>
+    </div>
+
+    <div class="section">
+      <h2>Telefon Doğrulama</h2>
+      <input type="text" id="telInput" placeholder="Telefon numarası girin (örn: +905...)">
+      <button onclick="telSorgula()">Sorgula</button>
+      <pre id="telSonuc"></pre>
+    </div>
+
+    <div class="section">
+      <h2>E-Posta Doğrulama</h2>
+      <input type="text" id="mailInput" placeholder="E-posta adresi girin">
+      <button onclick="mailSorgula()">Sorgula</button>
+      <pre id="mailSonuc"></pre>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+  </html>
